@@ -13,3 +13,8 @@ elif i < len(s):
 else:
     print("i out of range")
 
+# Reverse a String
+s = "Hello"
+
+reversed_word = s[::-1]
+print(reversed_word)
