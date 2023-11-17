@@ -38,3 +38,8 @@ for i in range(len(s)):
         new_s += s[i]
 
 print(new_s)
+
+# Check if a string only contains numbers
+s = "Hello59"
+
+print(s.isdecimal())
