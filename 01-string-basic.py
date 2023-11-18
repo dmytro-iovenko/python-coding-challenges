@@ -56,3 +56,11 @@ else:
         if i != n:
             new_s += s[i]
     print(new_s)
+
+# Replace a character in a string
+s = "Hello"
+
+curr_char = "l"
+new_char = "s"
+
+print(s.replace(curr_char, new_char))
