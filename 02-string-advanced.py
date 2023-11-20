@@ -22,3 +22,9 @@ print(is_pangram)
 s = "Hello, World!"
 
 print(s.replace(" ", ""))
+
+# Check if a string starts with a prefix
+s = "Hello"
+prefix = "He"
+
+print(s.startswith(prefix))
