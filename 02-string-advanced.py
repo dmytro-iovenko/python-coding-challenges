@@ -17,3 +17,8 @@ for char in string.ascii_lowercase:
         break # Stop the loop immediately
 
 print(is_pangram)
+
+# Remove spaces from a string
+s = "Hello, World!"
+
+print(s.replace(" ", ""))
