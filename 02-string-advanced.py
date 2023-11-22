@@ -28,3 +28,9 @@ s = "Hello"
 prefix = "He"
 
 print(s.startswith(prefix))
+
+# Check if a string ends with a suffix
+s = "Hello"
+suffix = "ello"
+
+print(s.endswith(suffix))
