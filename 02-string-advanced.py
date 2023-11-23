@@ -49,3 +49,16 @@ for word in words_list:
 new_s.rstrip()
 
 print(new_s)
+
+# Count repeated characters
+s = "Hello"
+
+repeated_count = 0
+repeated_chars = []
+
+for char in s:
+	if (s.count(char) > 1) and (char not in repeated_chars):
+		repeated_count += 1
+		repeated_chars.append(char)
+
+print(repeated_count)
