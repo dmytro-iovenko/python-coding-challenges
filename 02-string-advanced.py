@@ -62,3 +62,16 @@ for char in s:
 		repeated_chars.append(char)
 
 print(repeated_count)
+
+# Sort words in alphabetical order
+s = "Hello World"
+new_s = ""
+
+words_list = s.split(" ")
+
+for word in words_list:
+	new_s += "".join(sorted(word.lower())) + " "
+
+new_s.rstrip()
+
+print(new_s)
