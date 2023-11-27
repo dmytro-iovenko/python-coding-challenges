@@ -6,3 +6,9 @@ for i in range(len(my_list)):
 	my_list[i] *= factor
 
 print(my_list)
+
+# Print elements on the same line without commas
+my_list = [3, 4, 5, 6]
+
+for elem in my_list:
+	print(elem, end=" ")
