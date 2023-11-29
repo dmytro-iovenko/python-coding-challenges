@@ -20,3 +20,11 @@ if my_list:
 	print(max(my_list), min(my_list))
 else:
 	print(None)
+
+# Check if list is empty or not
+my_list = [4, 5, 6, 7]
+
+if len(my_list) == 0:
+	print("Empty")
+else:
+	print("Not Empty")
