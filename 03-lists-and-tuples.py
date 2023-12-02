@@ -51,3 +51,8 @@ else:
 		my_list.remove(elem_to_remove)
 
 print(my_list)
+
+# Remove duplicates from a list
+my_list = [1, 1, 2, 3, 4, 4]
+no_duplicates = list(set(my_list))
+print(no_duplicates)
