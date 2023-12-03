@@ -56,3 +56,13 @@ print(my_list)
 my_list = [1, 1, 2, 3, 4, 4]
 no_duplicates = list(set(my_list))
 print(no_duplicates)
+
+# Count elements greater than 3
+my_list = [1, -1, 0, 2, 2, 3]
+count = 0
+
+for elem in my_list:
+	if elem > 3:
+		count += 1
+
+print(count)
