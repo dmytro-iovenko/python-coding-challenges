@@ -66,3 +66,15 @@ for elem in my_list:
 		count += 1
 
 print(count)
+
+# Find the intersection of two sets
+set1 = {1, 2, 3, 4, 5}
+set2 = {3, 4, 7, 8, 9}
+
+intersection = set()
+
+for elem in set1:
+	if elem in set2:
+		intersection.add(elem)
+
+print(intersection)
